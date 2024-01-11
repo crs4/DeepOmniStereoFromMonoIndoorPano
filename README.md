@@ -13,11 +13,18 @@ This repo is an extended and work-in-progress code release of the original paper
 ## Updates
 * 2024-1-11: First release including views composer script 
   
-## Requirements
+## Python Requirements
 - Python >=3.6
 - pytorch>=1.0.1
 - torchvision
 - numpy
-- PIL
-- matplotlib.pyplot
+- Pillow
+- scikit_learn
 - tqdm
+- scipy
+- Shapely
+- thop
+
+  ## Other Requirements
+  - TO DO
+
