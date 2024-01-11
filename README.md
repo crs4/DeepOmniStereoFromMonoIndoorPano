@@ -1,4 +1,4 @@
-# panoVerseStereo
+# PanoVerseStereo
 Implementation of the WEB3D 2023 paper: PanoVerse: automatic generation of stereoscopic environments from single indoor panoramic images for Metaverse applications  
 
 This paper received the honorable mention award in the best paper category at Web3D 2023.
