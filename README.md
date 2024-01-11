@@ -8,7 +8,7 @@ This work introduces an innovative approach to automatically generate and explor
 This repo is an extended and work-in-progress code release of the original paper for demo purpose.
 
 **Method Pipeline overview**:
-![](assets/overview.png)
+![](assets/visual-overview.png)
 
 ## Updates
 * 2024-1-11: First release including views composer script 
