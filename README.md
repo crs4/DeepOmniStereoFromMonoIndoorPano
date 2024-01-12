@@ -27,7 +27,7 @@ There are three python scripts:
 * `img2equi.py` - Compose an omnidirectional stereoscopic image pair in equirectangular format by suitably blending the precomputed slices and used for display in a lightweight WebXR viewer
 * `aizoom.py` - Upsample the omnidirectional stereoscopic image pair via super-resolution generative adversarial networks
 
-In the `data` directory, you will find the test file named `scene_02082_299.png`, which is an equirectangular image of an indoor environment.
+In the `data` directory, you will find the a test input image named `scene_02082_299.png` from [PNVS](https://github.com/bluestyle97/PNVS) dataset, which is an equirectangular image of an indoor environment.
 
 To create a 4K omnidirectional stereoscopic image pair from the original 1024x512 equirectangular scene, run:
 
@@ -40,4 +40,19 @@ To create a 4K omnidirectional stereoscopic image pair from the original 1024x51
 
 ## Acknowledgements
 We acknowledge the support of the PNRR ICSC National Research Centre for High Performance Computing, Big Data and Quantum Computing (CN00000013), under the NRRP MUR program funded by the NextGenerationEU.
+
+## Citation
+Please cite our next, related paper and the data sources (below) for any purpose of usage.
+@inproceedings{Xu_2021_CVPR,
+  title     = {Layout-Guided Novel View Synthesis From a Single Indoor Panorama},
+  author    = {Xu, Jiale and Zheng, Jia and Xu, Yanyu and Tang, Rui and Gao, Shenghua},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2021},
+}
+@inproceedings{Structured3D,
+  title     = {Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling},
+  author    = {Jia Zheng and Junfei Zhang and Jing Li and Rui Tang and Shenghua Gao and Zihan Zhou},
+  booktitle = {Proceedings of The European Conference on Computer Vision (ECCV)},
+  year      = {2020}
+}
 
