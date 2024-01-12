@@ -43,7 +43,7 @@ To create a 4K omnidirectional stereoscopic image pair from the original 1024x51
 We acknowledge the support of the PNRR ICSC National Research Centre for High Performance Computing, Big Data and Quantum Computing (CN00000013), under the NRRP MUR program funded by the NextGenerationEU.
 
 ## Citation
-Please cite our next, related paper and the data sources (below) for any usage purpose.
+Please cite all related papers and the data sources (below) for any usage purpose.
 ```
 @inproceedings{Xu_2021_CVPR,
   title     = {Layout-Guided Novel View Synthesis From a Single Indoor Panorama},
