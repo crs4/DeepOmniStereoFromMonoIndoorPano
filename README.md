@@ -10,22 +10,33 @@ The work aims to introduce an innovative approach to automatically generate and 
 * 2024-1-11: First release including omnidirectional stereo generation script.
   
 ## Python Requirements
-- Python >=3.6
-- pytorch>=1.0.1
-- torchvision
-- numpy
-- Pillow
-- scikit_learn
-- tqdm
-- scipy
-- Shapely
-- thop
-
-  ## Other Requirements
-  - TO DO
+See file `requirements.txt`
  
+## Installation
+The installation involves creating a Python virtual environment and installing all the essential Python modules using pip. After cloning the repository, run:
+
+```
+# python -m venv .env
+# source .env/bin/activate
+# pip install -r requirements.txt
+```
+
 ## Usage
-TO DO
+There are three python scripts:
+* `panoverse_strip.py` - Synthesize a collection of panoramic slices through reprojection and view-synthesis employing deep learning
+* `img2equi.py` - Compose an omnidirectional stereoscopic image pair in equirectangular format by suitably blending the precomputed slices and used for display in a lightweight WebXR viewer
+* `aizoom.py` - Upsample the omnidirectional stereoscopic image pair via super-resolution generative adversarial networks
+
+In the "data" directory, you will find the test file named "scene_02082_299.png," which is an equirectangular image of an indoor environment.
+
+To create a 4K omnidirectional stereoscopic image pair from the original 1024x512 equirectangular scene, run:
+
+```
+# python panoverse_strip.py -o tmp --samples 360 --padded data/scene_02082_299.png
+# python img2equi.py -o out tmp/scene_02082_299.json
+# python aizoom.py --zoom-factor 4 -o out/4Xscene_02082_299_l.png out/scene_02082_299_l.png
+# python aizoom.py --zoom-factor 4 -o out/4Xscene_02082_299_r.png out/scene_02082_299_r.png
+```
 
 ## Acknowledgements
 We acknowledge the support of the PNRR ICSC National Research Centre for High Performance Computing, Big Data and Quantum Computing (CN00000013), under the NRRP MUR program funded by the NextGenerationEU.
