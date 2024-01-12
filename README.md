@@ -10,7 +10,7 @@ The work aims to introduce an innovative approach to automatically generate and 
 * 2024-1-11: First release including omnidirectional stereo generation script.
   
 ## Python Requirements
-See file `requirements.txt`
+See the file `requirements.txt`
  
 ## Installation
 The installation involves creating a Python virtual environment and installing all the essential Python modules using pip. After cloning the repository, run:
