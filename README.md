@@ -42,20 +42,3 @@ To create a 4K omnidirectional stereoscopic image pair from the original 1024x51
 ## Acknowledgements
 We acknowledge the support of the PNRR ICSC National Research Centre for High Performance Computing, Big Data and Quantum Computing (CN00000013), under the NRRP MUR program funded by the NextGenerationEU.
 
-## Citation
-Please cite all related papers and the data sources (below) for any usage purpose.
-```
-@inproceedings{Xu_2021_CVPR,
-  title     = {Layout-Guided Novel View Synthesis From a Single Indoor Panorama},
-  author    = {Xu, Jiale and Zheng, Jia and Xu, Yanyu and Tang, Rui and Gao, Shenghua},
-  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year      = {2021},
-}
-@inproceedings{Structured3D,
-  title     = {Structured3D: A Large Photo-realistic Dataset for Structured 3D Modeling},
-  author    = {Jia Zheng and Junfei Zhang and Jing Li and Rui Tang and Shenghua Gao and Zihan Zhou},
-  booktitle = {Proceedings of The European Conference on Computer Vision (ECCV)},
-  year      = {2020}
-}
-```
-
