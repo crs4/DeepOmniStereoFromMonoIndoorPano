@@ -7,7 +7,8 @@ The work aims to introduce an innovative approach to automatically generate and 
 ![](assets/visual-overview.jpg)
 
 ## Updates
-* 2024-1-11: First release including omnidirectional stereo generation script.
+* 2024-1-12: Omnidirectional stereo generation script included.
+* 2024-1-11: First repository release.
   
 ## Python Requirements
 See the file `requirements.txt`
@@ -42,7 +43,8 @@ To create a 4K omnidirectional stereoscopic image pair from the original 1024x51
 We acknowledge the support of the PNRR ICSC National Research Centre for High Performance Computing, Big Data and Quantum Computing (CN00000013), under the NRRP MUR program funded by the NextGenerationEU.
 
 ## Citation
-Please cite our next, related paper and the data sources (below) for any purpose of usage.
+Please cite our next, related paper and the data sources (below) for any usage purpose.
+```
 @inproceedings{Xu_2021_CVPR,
   title     = {Layout-Guided Novel View Synthesis From a Single Indoor Panorama},
   author    = {Xu, Jiale and Zheng, Jia and Xu, Yanyu and Tang, Rui and Gao, Shenghua},
@@ -55,4 +57,5 @@ Please cite our next, related paper and the data sources (below) for any purpose
   booktitle = {Proceedings of The European Conference on Computer Vision (ECCV)},
   year      = {2020}
 }
+```
 
