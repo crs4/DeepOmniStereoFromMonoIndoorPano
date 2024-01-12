@@ -27,7 +27,7 @@ There are three python scripts:
 * `img2equi.py` - Compose an omnidirectional stereoscopic image pair in equirectangular format by suitably blending the precomputed slices and used for display in a lightweight WebXR viewer
 * `aizoom.py` - Upsample the omnidirectional stereoscopic image pair via super-resolution generative adversarial networks
 
-In the "data" directory, you will find the test file named "scene_02082_299.png," which is an equirectangular image of an indoor environment.
+In the `data` directory, you will find the test file named `scene_02082_299.png`, which is an equirectangular image of an indoor environment.
 
 To create a 4K omnidirectional stereoscopic image pair from the original 1024x512 equirectangular scene, run:
 
